@@ -6,12 +6,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: var(--bcg-color);
   font-family: var(--font-regular);
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
+  height: 100vh;
   min-block-size: 668px;
   position: relative;
   padding: var(--page-gap);
@@ -166,7 +168,7 @@
 }
 
 .text-link {
-  text-shadow: 2px 2px #FF0070;
+  text-shadow: 2px 2px var(--accent-color);
   text-decoration: none;
 }
 
@@ -178,9 +180,7 @@
   outline: solid 1px;
 }
 
-
 .accent-list-item {
-  background-color: var(--bcg-color-section-name-text);
   font-size: var(--main-font-size);
   font-weight: normal;
 }
@@ -200,6 +200,7 @@
 .footer {
   display: grid;
   position: relative;
+  height: 100vh;
   min-block-size: 668px;
   justify-items: center;
 }

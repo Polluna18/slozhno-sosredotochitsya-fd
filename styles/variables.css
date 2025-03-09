@@ -3,12 +3,11 @@
   и их переопределение под различные устройства
 */
 :root {
-  --bcg-image: url(../images/cover-image.png);
+  --bcg-image: url(../images/cover-image-dark.png);
   --page-gap: 10px;
-  --font-regular: "IBM Plex mono", serif;
-
+  --font-regular: "IBM Plex mono", monospace;
+  --bcg-color: #000028;
   --heading-color: #db00ff;
-
   --accent-color: #ff0070;
   --button-color: #ff0070;
   --paragraph-color: #f1b2ce;
